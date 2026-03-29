@@ -51,8 +51,7 @@ nav{
   backdrop-filter:blur(12px);
   border-bottom:1px solid var(--border);
 }
-.nav-logo{margin-right:auto;display:block;flex-shrink:0}
-.nav-logo svg{display:block;height:32px}
+.nav-logo{margin-right:auto;display:inline-flex;align-items:center;gap:11px;text-decoration:none;flex-shrink:0}
 .nav-links{display:flex;gap:28px;align-items:center}
 .nav-links a{
   font-size:14px;color:var(--muted);
@@ -407,7 +406,7 @@ footer{
   justify-content:space-between;
   flex-wrap:wrap;gap:20px;
 }
-footer svg{height:26px;display:block;opacity:.55}
+.footer-logo{display:inline-flex;align-items:center;gap:11px;text-decoration:none}
 .foot-links{display:flex;gap:20px;flex-wrap:wrap}
 .foot-links a{
   font-size:12px;color:var(--muted);
@@ -433,25 +432,16 @@ footer svg{height:26px;display:block;opacity:.55}
   .stat-n{font-size:36px}
 }
 </style>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232563EB'/><text x='5' y='24' font-family='system-ui,sans-serif' font-size='20' font-weight='900' fill='white'>K</text></svg>">
 </head>
 <body>
 
 <nav>
   <a href="index.html" class="nav-logo">
-    <svg viewBox="0 0 470 185" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="n_c" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#6366F1"/></linearGradient>
-        <linearGradient id="n_l" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#6366F1"/></linearGradient>
-      </defs>
-      <g transform="translate(10,10)">
-        <path d="M 5.86,11.72 L 5.86,128.9 L 28.52,128.9 L 28.52,79.69 L 52.34,79.69 L 85.94,128.9 L 112.5,128.9 L 76.56,76.95 L 111.3,11.72 L 84.77,11.72 L 53.91,66.41 L 28.52,66.41 L 28.52,11.72 Z" fill="#101828"/>
-        <path d="M 179.3,101.9 C 166.4,101.9 156,91.52 156,78.71 C 156,65.9 166.4,55.51 179.3,55.51 C 192.2,55.51 202.6,65.9 202.6,78.71 C 202.6,91.52 192.2,101.9 179.3,101.9 Z M 179.3,31.25 C 153.1,31.25 131.9,52.5 131.9,78.71 C 131.9,104.9 153.1,126.2 179.3,126.2 C 205.5,126.2 226.7,104.9 226.7,78.71 C 226.7,52.5 205.5,31.25 179.3,31.25 Z" fill="url(#n_c)"/>
-        <path d="M 160.2,78.7 L 163.5,78.7 L 164.0,74.2 L 164.8,73.0 L 165.6,74.2 L 166.1,78.7 L 168.0,78.7 L 168.4,70.2 L 169.6,68.5 L 170.8,70.2 L 171.3,78.7 L 173.2,78.7 L 173.8,63.5 L 175.4,61.2 L 177.0,63.5 L 177.5,78.7 L 179.3,78.7 L 179.9,63.5 L 181.5,61.2 L 183.1,63.5 L 183.6,78.7 L 185.5,78.7 L 186.0,70.2 L 187.2,68.5 L 188.4,70.2 L 188.9,78.7 L 190.8,78.7 L 191.3,74.2 L 192.1,73.0 L 192.9,74.2 L 193.4,78.7 L 197.8,78.7" fill="none" stroke="url(#n_c)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M 241.8,11.72 L 241.8,128.9 L 264.5,128.9 L 264.5,79.69 L 288.3,79.69 L 321.9,128.9 L 348.4,128.9 L 312.5,76.95 L 347.3,11.72 L 320.7,11.72 L 289.8,66.41 L 264.5,66.41 L 264.5,11.72 Z" fill="#101828"/>
-        <path d="M 368.8,11.72 L 368.8,103.9 C 368.8,111.7 369.3,117.1 370.4,120.1 C 372.4,125.6 376.1,128.9 381.7,130 C 383.9,130.4 386.9,130.6 390.6,130.6 C 394.3,130.6 397.3,130.4 399.5,130 C 405.1,128.9 408.8,125.6 410.8,120.1 C 411.9,117.1 412.4,111.7 412.4,103.9 L 412.4,11.72 L 435,11.72 L 435,103.9 C 435,114.7 434.3,122.1 432.8,126.2 C 430.1,133.7 425.1,139.1 417.8,142.3 C 410.4,145.5 401.4,147.1 390.6,147.1 C 379.8,147.1 370.8,145.5 363.4,142.3 C 356.1,139.1 351.1,133.7 348.4,126.2 C 346.9,122.1 346.2,114.7 346.2,103.9 L 346.2,11.72 Z" fill="#101828"/>
-        <path d="M 12.3,153.1 C 78.4,143.2 150.3,138.3 228,138.3 C 305.7,138.3 377.6,143.2 443.7,153.1 L 439.4,161.6 C 375.3,151.7 304.9,146.7 228,146.7 C 151.1,146.7 80.7,151.7 16.6,161.6 Z" fill="url(#n_l)"/>
-      </g>
-    </svg>
+    <div style="width:38px;height:38px;background:#2563EB;border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="3" y="17" font-family="'Plus Jakarta Sans',system-ui,sans-serif" font-size="17" font-weight="800" fill="white" letter-spacing="-1">K</text></svg>
+    </div>
+    <span style="font-family:'Plus Jakarta Sans',system-ui,sans-serif;font-size:22px;font-weight:800;letter-spacing:-1.2px;color:#101828;line-height:1">KOKU</span>
   </a>
   <button class="nav-hbg" onclick="this.classList.toggle('open');document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menú">
     <span></span><span></span><span></span>
@@ -604,20 +594,12 @@ footer svg{height:26px;display:block;opacity:.55}
 
 <!-- FOOTER -->
 <footer>
-  <svg viewBox="0 0 470 185" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="f_c" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#6366F1"/></linearGradient>
-      <linearGradient id="f_l" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#6366F1"/></linearGradient>
-    </defs>
-    <g transform="translate(10,10)">
-      <path d="M 5.86,11.72 L 5.86,128.9 L 28.52,128.9 L 28.52,79.69 L 52.34,79.69 L 85.94,128.9 L 112.5,128.9 L 76.56,76.95 L 111.3,11.72 L 84.77,11.72 L 53.91,66.41 L 28.52,66.41 L 28.52,11.72 Z" fill="#344054"/>
-      <path d="M 179.3,101.9 C 166.4,101.9 156,91.52 156,78.71 C 156,65.9 166.4,55.51 179.3,55.51 C 192.2,55.51 202.6,65.9 202.6,78.71 C 202.6,91.52 192.2,101.9 179.3,101.9 Z M 179.3,31.25 C 153.1,31.25 131.9,52.5 131.9,78.71 C 131.9,104.9 153.1,126.2 179.3,126.2 C 205.5,126.2 226.7,104.9 226.7,78.71 C 226.7,52.5 205.5,31.25 179.3,31.25 Z" fill="url(#f_c)"/>
-      <path d="M 160.2,78.7 L 163.5,78.7 L 164.0,74.2 L 164.8,73.0 L 165.6,74.2 L 166.1,78.7 L 168.0,78.7 L 168.4,70.2 L 169.6,68.5 L 170.8,70.2 L 171.3,78.7 L 173.2,78.7 L 173.8,63.5 L 175.4,61.2 L 177.0,63.5 L 177.5,78.7 L 179.3,78.7 L 179.9,63.5 L 181.5,61.2 L 183.1,63.5 L 183.6,78.7 L 185.5,78.7 L 186.0,70.2 L 187.2,68.5 L 188.4,70.2 L 188.9,78.7 L 190.8,78.7 L 191.3,74.2 L 192.1,73.0 L 192.9,74.2 L 193.4,78.7 L 197.8,78.7" fill="none" stroke="url(#f_c)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M 241.8,11.72 L 241.8,128.9 L 264.5,128.9 L 264.5,79.69 L 288.3,79.69 L 321.9,128.9 L 348.4,128.9 L 312.5,76.95 L 347.3,11.72 L 320.7,11.72 L 289.8,66.41 L 264.5,66.41 L 264.5,11.72 Z" fill="#344054"/>
-      <path d="M 368.8,11.72 L 368.8,103.9 C 368.8,111.7 369.3,117.1 370.4,120.1 C 372.4,125.6 376.1,128.9 381.7,130 C 383.9,130.4 386.9,130.6 390.6,130.6 C 394.3,130.6 397.3,130.4 399.5,130 C 405.1,128.9 408.8,125.6 410.8,120.1 C 411.9,117.1 412.4,111.7 412.4,103.9 L 412.4,11.72 L 435,11.72 L 435,103.9 C 435,114.7 434.3,122.1 432.8,126.2 C 430.1,133.7 425.1,139.1 417.8,142.3 C 410.4,145.5 401.4,147.1 390.6,147.1 C 379.8,147.1 370.8,145.5 363.4,142.3 C 356.1,139.1 351.1,133.7 348.4,126.2 C 346.9,122.1 346.2,114.7 346.2,103.9 L 346.2,11.72 Z" fill="#344054"/>
-      <path d="M 12.3,153.1 C 78.4,143.2 150.3,138.3 228,138.3 C 305.7,138.3 377.6,143.2 443.7,153.1 L 439.4,161.6 C 375.3,151.7 304.9,146.7 228,146.7 C 151.1,146.7 80.7,151.7 16.6,161.6 Z" fill="url(#f_l)"/>
-    </g>
-  </svg>
+  <a href="/" class="footer-logo">
+    <div style="width:32px;height:32px;background:#2563EB;border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+      <svg width="19" height="19" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="3" y="17" font-family="'Plus Jakarta Sans',system-ui,sans-serif" font-size="17" font-weight="800" fill="white" letter-spacing="-1">K</text></svg>
+    </div>
+    <span style="font-family:'Plus Jakarta Sans',system-ui,sans-serif;font-size:18px;font-weight:800;letter-spacing:-1px;color:var(--text);line-height:1">KOKU</span>
+  </a>
   <div class="foot-links">
     <a href="https://piezas.koku.cl">Residencial</a>
     <a href="https://arriendosaas.koku.cl">SaaS</a>
